@@ -66,4 +66,12 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    // Corrige la dependencia aquí usando comillas dobles
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    // Biblioteca AppCompat para compatibilidad con versiones anteriores de Android
+    implementation("androidx.appcompat:appcompat:1.6.1")
+
+    // Biblioteca para el diseño de interfaz de usuario (Material Design)
+    implementation("com.google.android.material:material:1.9.0")
 }

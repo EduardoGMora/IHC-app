@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">My Application2</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="login_button">Iniciar sesión</string>
+    <string name="image_description">Descripción de la imagen</string>
 </resources>
