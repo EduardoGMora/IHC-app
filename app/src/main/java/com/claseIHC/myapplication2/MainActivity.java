@@ -1,5 +1,12 @@
 package com.claseIHC.myapplication2;
 
+// Nombre del proyecto: IHC-app
+// Desarolladores
+// José Eduardo Gómez Mora
+// Guillermo Gómez Castañeda
+// Emmanuel Martín Marín
+
+// MainActivity.java
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
