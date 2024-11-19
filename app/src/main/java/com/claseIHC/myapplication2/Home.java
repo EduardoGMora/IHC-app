@@ -27,7 +27,6 @@ public class Home extends AppCompatActivity {
         botonlista.setOnClickListener(v -> {
             Intent intent = new Intent(Home.this, ListViewActivity.class);
             startActivity(intent);
-            finish();
         });
     }
 }
