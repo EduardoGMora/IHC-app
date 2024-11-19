@@ -9,8 +9,6 @@
     >
 
     <!-- ImageView centrado -->
-
-    <!-- ProgressBar centrado debajo del ImageView -->
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
@@ -20,6 +18,7 @@
         app:layout_constraintTop_toTopOf="parent"
         android:src="@drawable/icon" />
 
+    <!-- ProgressBar centrado debajo del ImageView -->
     <ProgressBar
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyle"

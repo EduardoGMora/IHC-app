@@ -11,15 +11,16 @@ public class Splash extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash);
 
-        // Timer para el Splash
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                // Al terminar el Splash, ir al ListView
-                Intent intent = new Intent(Splash.this, ListViewActivity.class);
-                startActivity(intent);
-                finish();
-            }
-        }, 3000); // 3000 ms = 3 segundos
+        gotoHome();
     }
+
+    // Timer para el Splash que redirecciona a Home
+    private void gotoHome() {
+        new Handler().postDelayed(() -> {
+            Intent intent = new Intent(Splash.this, Home.class);
+            startActivity(intent);
+            finish();
+        },3000);
+    }
+
 }
