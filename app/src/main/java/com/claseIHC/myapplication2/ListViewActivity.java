@@ -11,12 +11,12 @@ import androidx.appcompat.app.AppCompatActivity;
 public class ListViewActivity extends AppCompatActivity {
     private ListView listView;  //
     String[] menuItems = {
-            "Opción 1",
-            "Opción 2",
-            "Opción 3",
-            "Opción 4",
-            "Opción 5",
-            "Opción 6"
+            "Partido 1",
+            "Partido 2",
+            "Partido 3",
+            "Partido 4",
+            "Partido 5",
+            "Partido 6"
     };
 
     @Override
