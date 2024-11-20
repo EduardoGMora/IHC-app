@@ -25,6 +25,7 @@
         android:src="@drawable/ine"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoView"
         tools:layout_editor_absoluteY="237dp" />
 
     <ImageView
