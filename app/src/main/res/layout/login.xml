@@ -9,11 +9,10 @@
     <!-- Campo de correo electrónico -->
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="240dp"
-        android:layout_marginBottom="20dp"
-        android:src="@drawable/votaciones"
+        android:layout_width="550dp"
+        android:layout_height="284dp"
         android:contentDescription="Imagen de votaciones"
+        android:src="@drawable/votaciones"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,16 +46,15 @@
     <!-- Botón de inicio de sesión -->
     <Button
         android:id="@+id/loginButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/primary"
+        android:layout_width="321dp"
+        android:layout_height="46dp"
+        android:background="@drawable/roundedbutton"
         android:minHeight="48dp"
         android:text="Iniciar sesión"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/passwordEditText"
-        app:layout_constraintVertical_bias="0.485" />
+        app:layout_constraintVertical_bias="0.466" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
